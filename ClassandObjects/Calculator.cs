@@ -11,7 +11,7 @@ namespace ClassandObjects
     /// </summary>
     class Calculator
     {
-        int a = 0;   
+        int a = 0;
         int b = 0;
         int result = 0; // Data Member
 
