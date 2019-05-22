@@ -19,6 +19,8 @@ namespace ClassandObjects
             Console.WriteLine("Enter the value of B");
             b = int.Parse(Console.ReadLine());
 
+            Calculator cal = new Calculator();
+
             Calculator calc = new Calculator(a, b);
            
 
