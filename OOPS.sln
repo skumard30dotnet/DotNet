@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMethodHiding", "DemoMet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMethodOverridings", "DemoMethodOverridings\DemoMethodOverridings.csproj", "{1CFE0142-B067-4D0A-8B7C-D1D783E7B5B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoInterface", "DemoInterface\DemoInterface.csproj", "{1E62ECF9-4D68-4086-BDB0-CE9C7F3C6F90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{1CFE0142-B067-4D0A-8B7C-D1D783E7B5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CFE0142-B067-4D0A-8B7C-D1D783E7B5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CFE0142-B067-4D0A-8B7C-D1D783E7B5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E62ECF9-4D68-4086-BDB0-CE9C7F3C6F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E62ECF9-4D68-4086-BDB0-CE9C7F3C6F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E62ECF9-4D68-4086-BDB0-CE9C7F3C6F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E62ECF9-4D68-4086-BDB0-CE9C7F3C6F90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

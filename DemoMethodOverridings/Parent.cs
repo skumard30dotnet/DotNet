@@ -20,7 +20,6 @@ namespace DemoMethodOverridings
         public override void Singer()
         {
             string x = "Test";
-            x.ToString
             Console.WriteLine("I am a professional singer + Child Class Method");
         }
     }
