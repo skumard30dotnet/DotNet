@@ -9,7 +9,7 @@ namespace DemoInterface
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
             BiCycleWithGear biCycle = new BiCycleWithGear();
             biCycle.ChangeGear(2);
             biCycle.SpeedUp(50);
