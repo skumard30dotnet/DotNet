@@ -22,7 +22,7 @@ namespace DemoInterface
             bike.ApplyBrakes(40);
             bike.PrintState();
 
-            IVechicle vechicle = new Bike();
+            IVechicle vechicle = new Bike();   
             vechicle.SpeedUp(50);
             vechicle.ApplyBrakes(20);
             vechicle.ChangeGear(2);
