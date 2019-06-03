@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExceptionHandling
+namespace DemoExceptionHandling2
 {
     class Calculator
     {
@@ -14,20 +14,12 @@ namespace ExceptionHandling
             int result = 0;
             try
             {
-                string[] fileArray = File.ReadAllLines("test.txt");
-
-                string[] arry = new string[10];
-
-                Console.WriteLine("The array value is ", arry[12]);
-
                 result = numerator / denominator;
-                int y = 124349058;
-                short x = (short)y;
                 Console.WriteLine("The result is {0}", result);
             }
             catch (DivideByZeroException e)
             {
-                Console.WriteLine("Denominator cannot be zero");
+                throw;
             }
             catch (FileNotFoundException e)
             {
