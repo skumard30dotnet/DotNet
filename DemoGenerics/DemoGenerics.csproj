@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DerivedClass.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="GenericClass.cs" />
+    <Compile Include="GenericDictionaryKey.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

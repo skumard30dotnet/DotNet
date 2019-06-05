@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,9 @@ namespace DemoGenerics
         public void Add(dynamic a, dynamic b)
         {
             var result = a + b;
+
         }
+
+       
     }
 }
